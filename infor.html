@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>触屏</title>
+  <link rel="stylesheet" type="text/css" href="css/base.css" />
+  <link rel="stylesheet" type="text/css" href="css/mixin.css" />
+  <link rel="stylesheet" type="text/css" href="js/lib/perfect-scroll/perfect-scrollbar.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="left_nav">
+      <div class="nav">
+        <ul>
+          <li class="on"><a href="#" title=""><img src="img/icon1.png" alt=""><span>办事进度查询</span></a></li>
+          <li><a href="#" title=""><img src="img/icon2.png" alt=""><span>证号信息查询</span></a></li>
+          <li><a href="#" title=""><img src="img/icon3.png" alt=""><span>登记指南查看</span></a></li>
+          <li><a href="#" title=""><img src="img/icon4.png" alt=""><span>法律法规</span></a></li>
+          <li><a href="#" title=""><img src="img/icon5.png" alt=""><span>机构简介</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="contents">
+      <div class="logo">
+        <a href="index.html" title=""><img src="img/logo.png" alt=""></a>
+      </div>
+      <div class="phone">
+        <span>联系电话：029-88888888</span>
+      </div>
+      <div class="contents_box">
+        <div class="box_bg"></div>
+        <div class="page_infor">
+          <form>
+            <div class="cell">
+              <span class="cell_txt">选择证书类别：</span>
+              <div class="cell_code">
+                <label class="on"><a href="javascript:void(0)" title="">权证书</a><input class="in_hid" type="hidden" value="0" /></label>
+                <label><a href="javascript:void(0)" title="">登记证明</a><input class="in_hid" type="hidden" value="0" /></label>
+              </div>
+            </div>
+            <div class="cell">
+              <span class="cell_txt">选择登记年份：</span>
+              <div class="cell_code">
+                <input class="in_mul" type="button"/>
+                <input class="in_year" type="text" />
+                <input class="in_add" type="button"/>
+              </div>
+            </div>
+            <div class="cell">
+              <span class="cell_txt">输入证书顺序号：</span>
+              <div class="cell_code">
+                <input class="in_txt" type="txt"/>
+                <input class="in_del" type="button" value="删除"/>
+                <input class="in_set" type="button" value="清空"/>
+                <div class="code_key">
+                  <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>0</li>
+                  </ul>
+                </div>
+                <input class="in_chaxun" type="button" value="查询"/>
+              </div>
+            </div>
+          </form>
+        </div> 
+      </div>
+      <div class="return_back">
+        <a href="#" title="">返回</a>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/lib/jquery.min.js" ></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
